@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <link rel="shortcut icon" type="image/png" href="../images/logo.png" />
+    <script src="https://kit.fontawesome.com/32c987a958.js">
+      </script>
+    <meta charset="utf-8">
+    <title>Dominators-About us</title>
+    <link rel="stylesheet" href="About.css">
+  </head>
+  <body>
+<div class="nav">
+<div class="logo">
+<img  src="../images/Logo-D.png" alt="Dominators">
+</div>
+<div class="nav-bar">
+<span onClick="myFunction()">&#9776;</span>
+<ul id="menu">
+    <li><a href="../index.html"><i class="fas fa-house-user"></i> HOME</a></li>
+    <li><a href="test.html"><i class="fas fa-dice"></i> DICE GAME</a></li>
+    <li><a href="About.html">ABOUT US</a></li>
+    
+</ul>     
+</div>  
+      </div>
+    <!--image slider start-->
+    <div class="slider">
+      <div class="slides">
+        <!--radio buttons start-->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <!--radio buttons end-->
+        <!--slide images start-->
+        <div class="slide first">
+           <div class="name"><h1>KOTALA SAI KIRAN</h1></div>
+         <div class="role"><h1>Core Developer</h1></div>
+          <img src="../images/1.jpg" alt="">
+        </div>
+        <div class="slide">
+            
+        <div class="name"><h1>NITHIN</h1></div>
+         <div class="role"><h1>Designer</h1>
+        </div>
+          <img src="../images/2.jpg" alt="">
+        </div>
+        <div class="slide">
+            <div class="name"><h1>AAKANKSHA THAKUR</h1></div>
+         <div class="role"><h1>Content Writer</h1></div>
+          <img src="../images/3.jpg" alt="">
+        </div>
+        <!--slide images end-->
+        <!--automatic navigation start-->
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+        </div>
+        <!--automatic navigation end-->
+      </div>
+      <!--manual navigation start-->
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+      </div>
+      <!--manual navigation end-->
+    </div>
+    <!--image slider end-->
+
+      <footer class="footer-distributed">
+
+			<div class="footer-right">
+
+				<a href="https://m.facebook.com/nithin.goud.798?ref=bookmarks"><i class="fa fa-facebook"></i></a>
+				<a href="https://www.youtube.com/channel/UCGK2CHknpDfPD-LoMRKXs4g"><i class="fa fa-youtube"></i></a>
+				<a href="#"><i class="fa fa-linkedin"></i></a>
+				<a href="https://github.com/Sai-Kiran-31"><i class="fa fa-github"></i></a>
+
+			</div>
+
+			<div class="footer-left">
+
+				<p class="footer-links">
+					<a class="link-1" href="../index.html">Home</a>
+
+					<a href="test.html">Dice Game</a>
+
+					<a href="About.html">About</a>
+				</p>
+
+				<p> &copy;Dominators. 2020 All rights reserved.</p>
+			</div>
+
+		</footer>
+    
+      <script>
+        function myFunction(){
+           var x = document.getElementById("menu"); 
+            
+            if(x.style.display == "block")
+            {
+                x.style.display = "none";
+            }
+            else{
+                x.style.display = "block";
+            }
+        }
+    </script>
+    
+      
+      
+      
+      
+      
+      
+    <script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+      document.getElementById('radio' + counter).checked = true;
+      counter++;
+      if(counter > 3){
+        counter = 1;
+      }
+    }, 5000);
+    </script>
+
+  </body>
+</html>
