@@ -458,7 +458,7 @@ input[type=button]:hover{
     transform: translate(-50%,-50%);
     background-color: antiquewhite;
     height: 100px;
-    width: 500px;
+    width: 400px;
     border: 2px solid white;
     border-radius: 30px;
     transition: opacity 0.5s;
